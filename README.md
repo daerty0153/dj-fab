@@ -6,6 +6,6 @@
 Fabric scripts to setup, deploy or update django codebases
 
 ## Steps
- - Add your project dependencies in "project.cfg" file
+ - Add your django project dependencies in "project.cfg" file
  - For code setup run: "python bootstrap.py" [this will setup virtual env + clone the codebase mentioned in project.cfg]
 
