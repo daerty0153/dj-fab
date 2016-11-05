@@ -1,7 +1,4 @@
-# Development in progress..
-
-
-## dj-fab
+# dj-fab(Development in progress..)
 
 Fabric scripts to setup, deploy or update django codebases
 
