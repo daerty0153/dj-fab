@@ -2,6 +2,9 @@
 
 Fabric scripts to setup, deploy or update django codebases
 
+## Dependencies
+Fabric, If not installed on system, please run "pip install fabric"
+
 ## Steps
 
 ### Codebase setup
