@@ -36,9 +36,9 @@ def main():
                 run('git clone %s' % code_repo)
                 # Installing requirements
                 run('pip install -r %s' % requirements_file)
-                #sys.stderr.write("$VIRTUAL_ENV not found.\n\n")
-                #parser.print_usage()
-                #sys.exit(-1)
+
+                # Running migrations
+                # run('./manage.py migrate')
 
 if __name__ == "__main__":
     execute(main)
